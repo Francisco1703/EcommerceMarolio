@@ -1,0 +1,58 @@
+.imgItem {
+  width: 100%;
+}
+
+.cardProduct {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 290px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  border: 2px solid #a23230;
+  text-align: center;
+  padding: 20px;
+  transition: all 0.5s;
+  border-radius: 15px;
+  background: linear-gradient(grey, #e9e9e9 70%);
+}
+
+.cardProduct:hover {
+  transform: scale(0.98);
+  cursor: pointer;
+}
+
+.nombreItem {
+  text-align: center;
+  font-size: 150%;
+  padding: 1rem;
+  color: black;
+}
+
+.precioItem {
+  color: black;
+  font-size: 120%;
+  font-weight: 700;
+}
+
+.idItem {
+  color: black;
+  font-size: 120%;
+  font-weight: 500;
+}
+
+.verDetalles {
+  color: white;
+  text-decoration: none;
+  background-color: #e40522;
+  width: 100%;
+  padding: 10px;
+  font-weight: 600;
+  transition: all 0.5s;
+}
+
+.verDetalles:hover {
+  background-color: #398740;
+  color: black;
+}

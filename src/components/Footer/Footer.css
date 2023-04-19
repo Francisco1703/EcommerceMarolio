@@ -1,0 +1,51 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 40px;
+  align-items: center;
+  background-color: black;
+  color: white;
+  padding-top: 30px;
+}
+
+.imgFooter {
+  width: 250px;
+}
+
+.imgMarolio {
+  width: 200px;
+}
+
+.contactate {
+  width: 60%;
+}
+
+.email {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.imgSobre {
+  width: 90px;
+  margin-bottom: 10px;
+}
+
+.telefono {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.imgTelefono {
+  width: 60px;
+  margin-bottom: 10px;
+  margin-right: 15px;
+}

@@ -1,0 +1,11 @@
+.bgDiv {
+  background-color: rgba(216, 213, 213, 0.3);
+  text-align: center;
+}
+
+.title {
+  padding: 40px;
+  font-size: 250%;
+  background: linear-gradient(to right, #e40522, rgb(247, 247, 35));
+  margin-bottom: 30px;
+}

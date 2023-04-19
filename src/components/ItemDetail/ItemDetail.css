@@ -1,0 +1,127 @@
+.contenedorItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(194, 188, 188);
+}
+
+.contenedorImg {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.divisor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 70%;
+  color: black;
+}
+
+.imgDetail {
+  width: 400px;
+}
+
+.nombreDetail {
+  padding: 15px;
+  font-size: 200%;
+  color: black;
+  font-weight: 500;
+}
+
+.precioDetail {
+  padding-bottom: 15px;
+}
+
+.idDetail {
+  font-size: 120%;
+  font-weight: 500;
+}
+
+.descripcion {
+  text-align: center;
+  width: 70%;
+  padding-bottom: 20px;
+}
+
+.terminarCompra {
+  background-color: red;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 110%;
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .contenedorItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(194, 188, 188);
+  }
+
+  .contenedorImg {
+    width: 100%;
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
+
+  .divisor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    color: black;
+  }
+
+  .imgDetail {
+    width: 300px;
+  }
+
+  .nombreDetail {
+    padding: 15px;
+    font-size: 200%;
+    color: black;
+    font-weight: 500;
+  }
+
+  .precioDetail {
+    padding-bottom: 15px;
+  }
+
+  .idDetail {
+    font-size: 120%;
+    font-weight: 500;
+  }
+
+  .descripcion {
+    text-align: center;
+    width: 70%;
+    padding-bottom: 20px;
+    font-size: 130%;
+  }
+
+  .terminarCompra {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 110%;
+    font-weight: 500;
+  }
+}
